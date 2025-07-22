@@ -10,10 +10,10 @@ function Verify() {
             <p className="header2">
               Verify you account using your phone number or your email            
             </p>
-            <button className="verify-btn">
+            {/* <button className="verify-btn">
               <img src={SMS} alt="" />
               Message
-            </button>
+            </button> */}
             <button className="verify-btn">
               <img src={Email} alt="" />
               Email
