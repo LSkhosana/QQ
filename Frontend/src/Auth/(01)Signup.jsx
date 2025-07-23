@@ -11,12 +11,14 @@ function Signup() {
       <div className="container">
         <h1>Create your account</h1>
         <p className="header">
-            Please note that phone verification is required for signup. Your number or email will only be used to verify your identity for security purposes.
+            Please note that your email will be used to verify your identity for security purposes.
         </p>
 
         <form className="signup-form">
             <label htmlFor="email">Email</label>
             <input type="email" id="email" name="email" required />
+            <label htmlFor="email">Password</label>
+            <input type="password" id="password" name="password" required />
             <button className="signup-btn">Continue</button>
         </form>
 
